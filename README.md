@@ -1,11 +1,46 @@
-# Davsk Standard Project Layout
-## New repository
-You may wish to clone this standard project layout to create a Hugo website to be deployed on AppEngine with limited active content using Go HTTP. This is a bare bones empty repo to provide you with the project directory structure that we are all familiar. When creating a new Hugo website, we usually place public and client's content in separate repositories.
-``` bash
-    git remote remove origin
-```
-You may now publish the repository to your GitHub organization.
+# QUICK
+QUICK is an interactive software environment for space mission design.
 
+## Overview
+### History
+* In 1973, I wrote Universe 1.0, my first multiplayer game, it ran on the Wang Statistical Computer at LSU and distracted the staff of the genetics lab. It was a three-body gravitational calculation of spaceflight.
+* In 1985, I published Cluster Analysis in Comal Today and sold over 600 copies. It allowed nodal analysis and consolidation on any number of dimensions (yes, even 11 dimensions).
+* Circa 1986 I published Universe 2.0 in Comal Today.
+* In 1990, Clay Ratliff and Dr. Mark Hood Ph.D. assisted me with Universe 3.0 which was a multiplayer space simulation on Comal that ran on the Atari 5600 and the Amiga, Ken Williams arranged for me to write the first true color video driver for IBM so that it could be adapted to the IBM PC and my SGML server was sold to AT&T for later deployment by AOL. I was missing Daniel and was offered my dream job in Louisiana and left it behind, Atari and Commodore collapsed, my program was never published on the IBM.
+* In 1991, I was serving part-time as an advisor to the board of directors of Research Astronautics and Mining Foundation which was developing technology to mine minerals in the asteroid belt. I wrote a Comal program called QUICK to do project planning. It was derived from Universe 2.0 which included the Cluster Analysis Package and worked quite well.
+* In 1992, after showing my QUICK program to JPL during the Gateway training, they evaluated the program and found it useful although not entirely accurate. I presented it at the Aerospace Design Conference and it was published by the American Institute of Aeronautics and Astronautics, Inc.
+
+### Description
+QUICK is an interactive software environment for space mission design. Written as a stand-alone program, which was available on 14 different machine architectures, QUICK provides a programmable Fortran-like calculator interface to a wide range of both built-in and user-defined functions. QUICK also provides direct access to the operating systems on each of these machines.
+
+My program would collapse the gravitational vectors into consolidated nodes that resulted in very rapid processing. Note that due to variations in lunar density causing perturbations in lunar orbits, NASA must use a multiple-vector model for the moon. My program was not so accurate that you could pilot a space ship, but it was close enough to plan a mission on a real-time basis and then submit the mission to the mainframe for final precise analysis and adjustment.
+
+The original implementation in Comal used relative files with user defined fixed length fortran fields and import required Comal functions as separate packages.
+
+### Project intent.
+What I would like to do, is to recreate the QUICK program using Go 2.0 and deploy it as a tool used by gamers playing Universe 4.0 and hopefully present it at the 2022 Aerospace Design Conference in memorial to our fallen astronauts.
+
+## Implementation
+### Package Quick
+Package Quick is an interactive environment for space mission design using dependency injection for IO.
+### Commands
+* Batch
+* ConIo
+* Gui
+    * MacOs
+    * Win
+    * Linux
+* Web
+* QuickRpc
+### Imports
+* DavskIo
+* ClusterAnalysis
+* DavskUniverse
+
+## Instructions for team members
+Detailed instructions and install scripts will be provided.
+
+# Under Construction. Needs revision.
 ## Installation
 Install prerequisites first.
 
