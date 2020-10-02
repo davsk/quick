@@ -256,9 +256,9 @@ Don't confuse the project level `/src` directory with the `/src` directory Go us
 
 * Release - It will show the latest release number for your project. Change the github link to point to your project.
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/golang-standards/project-layout?style=flat-square)](https://goreportcard.com/report/github.com/golang-standards/project-layout)
-[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/golang-standards/project-layout)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/golang-standards/project-layout)](https://pkg.go.dev/github.com/golang-standards/project-layout)
+[![Go Report Card](https://goreportcard.com/badge/github.com/davsk/quick?style=flat-square)](https://goreportcard.com/report/github.com/davsk/quick)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/davsk/quick)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/davsk/quick)](https://pkg.go.dev/github.com/davsk/quick)
 [![Release](https://img.shields.io/github/release/golang-standards/project-layout.svg?style=flat-square)](https://github.com/golang-standards/project-layout/releases/latest)
 
 ## Notes
